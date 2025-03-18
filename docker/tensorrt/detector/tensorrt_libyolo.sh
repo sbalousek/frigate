@@ -5,7 +5,7 @@ set -euxo pipefail
 SCRIPT_DIR="/usr/local/src/tensorrt_demos"
 
 # Clone tensorrt_demos repo
-git clone --depth 1 https://github.com/NateMeyer/tensorrt_demos.git -b conditional_download
+git clone --depth 1 https://github.com/sbalousek/tensorrt_demos.git -b conditional_download
 
 # Build libyolo
 if [ ! -e /usr/local/cuda ]; then
